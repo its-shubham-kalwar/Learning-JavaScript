@@ -36,3 +36,29 @@ const myFunction = function(){
 // console.log(typeof scorevalue); // number
 
 // console.log(typeof anotherId); // symbol
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Memory - Stack (Primitive), heap(Non-primitive)
+
+let myYoutubename = "Shubham kumar "
+let anothername = myYoutubename
+anothername = "Youtube Channel"
+
+// console.log(myYoutubename); // shubham kumar
+// console.log(anothername); // Youtube Channel
+
+let userOne = {
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shubham@gmail.com"
+
+console.log(userOne.email); // shubham@gmail.com
+console.log(userTwo.email); // shubham@gmail.com
