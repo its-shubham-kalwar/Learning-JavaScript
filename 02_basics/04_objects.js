@@ -63,4 +63,19 @@ users[1].email
 
 // console.log(tinderUser.hasOwnProperty('isLogged')); // false
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
+
+
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor : "Shubham"
+}
+
+
+const {courseInstructor: instructor} = course // destructure of object
+// console.log(courseInstructor); // Shubham
+console.log(instructor); // Shubham
+
+
