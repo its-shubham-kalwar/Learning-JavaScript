@@ -32,4 +32,36 @@ function one(){
 
     // two()
 }
-one()
+// one()
+
+
+
+if(true){
+    const username = "Shubham"
+    if (username === "Shubham"){
+        const website = " youtube"
+        // console.log(username + website);
+    }
+    // console.log(website); // scope nahi hai
+}
+
+// console.log(username); // scope nahi hai
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++  interesting  ++++++++++++++++++++++++++
+
+
+function addone(num) {
+    return num + 1
+}
+
+// console.log(addone(5));
+
+
+const addTwo = function(num){
+    return num + 2
+}
+
+console.log(addTwo(5));
