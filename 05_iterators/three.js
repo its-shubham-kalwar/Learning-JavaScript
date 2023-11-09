@@ -31,7 +31,51 @@ for (const greet of greetings){
 // Each char is !
 
 
+/// Maps
 
 const map = new Map()
 map.set('IN', 'India')
-map.set
+map.set('IN', 'India')
+map.set('USA', "United states of america")
+map.set('Fr', "France")
+
+// console.log(map);
+// output -- 
+// Map(3) {
+//     'IN' => 'India',
+//     'USA' => 'United states of america',
+//     'Fr' => 'France'
+//   }
+
+
+
+for (const key of map){
+    // console.log(key);
+}
+// output -- 
+// [ 'IN', 'India' ]
+// [ 'USA', 'United states of america' ]
+// [ 'Fr', 'France' ]
+
+
+
+for (const [key, value] of map){
+    // console.log(key, ':-', value);
+}
+// output -- 
+// IN :- India
+// USA :- United states of america
+// Fr :- France
+
+
+
+const myObject = {
+    game1 : 'NFS',
+    game2 : 'Spiderman'
+}
+for (const [key, value] of myObject){
+    // console.log(key, ':-', value);
+}
+// output -- 
+// error - not working
+
